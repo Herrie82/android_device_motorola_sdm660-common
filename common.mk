@@ -78,8 +78,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@3.2-impl \
     libbson.vendor \
-    libxml2 \
-    Snap
+    libxml2 
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -202,8 +201,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.sdm660
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
+# PRODUCT_PACKAGES += \
+#    LineageActions
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
@@ -322,11 +321,11 @@ PRODUCT_PACKAGES += \
     libqsapshim
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
+# PRODUCT_PACKAGES += \
+#    telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+# PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -399,5 +398,5 @@ PRODUCT_PACKAGES += \
     wpa_supplicant_wcn.conf
 
 # Wi-Fi Display
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+# PRODUCT_BOOT_JARS += \
+#    WfdCommon
