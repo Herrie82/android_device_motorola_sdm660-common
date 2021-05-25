@@ -317,8 +317,8 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service
 
 # Shims
-PRODUCT_PACKAGES += \
-    libqsapshim
+#PRODUCT_PACKAGES += \
+#    libqsapshim
 
 # Telephony
 # PRODUCT_PACKAGES += \
